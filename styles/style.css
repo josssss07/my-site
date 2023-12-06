@@ -43,6 +43,15 @@ body{
 .navbar a::before{
     text-decoration: none;
 }
+
+.navbar a::after{
+    text-decoration: none;
+}
+
+.navbar a:visited{
+    text-decoration: none;
+    color: white;
+}
 /*Nav bar CSS End*/
 
 /*ScrollBar CSS Start*/
@@ -67,3 +76,22 @@ body{
     z-index: 999;
   }
 /*ScrollBar CSS End*/
+
+
+/*Content CSS Start*/
+
+.content{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align:center ;
+}
+
+.about-me{
+    font-size: 55px ;
+    padding: 12px;
+    font-family: 'Satoshi', sans-serif;
+    color: white    ;
+}
+
+/*Content CSS Start*/
